@@ -242,7 +242,11 @@ section {
     color: #fce138
 }
 
-.contact-info  {
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+.contact-info div {
     width: 410px;
     display: inline-block;
     vertical-align: top;
@@ -251,10 +255,7 @@ section {
     color: white;
 }
 
-.contact iframe {
-    width: 400px;
-    height: 400px;
-}
+
 
 .contact-info h3 {
     color: #fce138;
