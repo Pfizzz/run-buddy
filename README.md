@@ -1,4 +1,4 @@
-# Run-Buddy Inc.
+# Run-Buddy
 
 ## A website that offers fitness services.
 
@@ -11,4 +11,4 @@ https://pfizzz.github.io/run-buddy/
 
 ##Made with ❤️ by Michael Pfister
 
-### &copy; 2020 Run Buddy, Inc
+### &copy; 2021 Run Buddy, Inc
