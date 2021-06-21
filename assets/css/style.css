@@ -81,22 +81,7 @@ section {
 
 /* hero-cta styles */
 
-.hero-cta {
-    text-align: right;
-    width: 500px;
-    float: left;
-    margin: 0;
-}
 
-.hero-cta h1 {
-    font-size: 40px;
-    color: #fce138;
-    font-style: italic;
-}
-
-.hero-cta p {
-    color: white;
-}
 
 .hero-form {
     color: #024e76;
