@@ -10,6 +10,7 @@ body {
 }
 
 /* apply styles to <header> */
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -144,6 +145,28 @@ section {
 }
 /* Hero Style End */
 
+/* Section title styles start */
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+/* What we do styles */
+
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -152,6 +175,8 @@ section {
     margin: 0 auto;
     text-align: center;
 }
+
+/* What you do styles */
 
 .steps {
     background: #fce138;
@@ -181,12 +206,6 @@ section {
     align-items: center;
 }
 
-.step-text p {
-    color: #39a6b2;
-    font-size: 18px;
-    flex: 12;
-}
-
 .step-img {
     flex: 1 12%;
     margin-right: 20px;
@@ -196,31 +215,32 @@ section {
     max-width: 100%;
 }
 
+.step text {
+    flex: 12;
+}
+
+.step-text p {
+    color: #39a6b2;
+    font-size: 18px;
+}
+
+
 .step-text h4 {
     font-size: 26px;
     line-height: 1.5;
     color: #024e76;
 }
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
 
 /* trainer style begin */
+
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 .trainer {
     margin: 20px;
@@ -252,29 +272,15 @@ section {
     font-size: 17px;
 }
 
-.trainers {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 
 /* reach out styles start */
 
 .contact {
-    background-color: #024e76;
+    background: #024e76;
 }
 
 .contact h2 {
     color: #fce138
-}
-
-.contact-info iframe {
-    height: 400px;
-}
-.contact-info div {
-    color: white;
 }
 
 .contact-info {
@@ -287,6 +293,14 @@ section {
     flex: 1;
     margin: 15px;
 }
+
+.contact-info iframe {
+    height: 400px;
+}
+.contact-info div {
+    color: white;
+}
+
 .contact-info h3 {
     color: #fce138;
     font-size: 32px;
@@ -297,10 +311,6 @@ section {
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
-}
-
-.contact-info p, .contact-info address {
-    font-size: 16px;
 }
 
 .contact-form inpit, .contact-form textarea {
