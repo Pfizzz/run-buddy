@@ -1,14 +1,16 @@
-# Run-Buddy
+# Run Buddy, Inc
 
-## A website that offers fitness services.
+## Purpose
+A website that offers fitness training services. 
 
-## Built with
+## Built With
 * HTML
 * CSS
 
 ## Website
-https://pfizzz.github.io/run-buddy/
+https://lernantino.github.io/run-buddy/
 
-##Made with ❤️ by Michael Pfister
+## Contribution
+Made with ❤️ by [your name]
 
-### &copy; 2021 Run Buddy, Inc
+### ©️2019 Run Buddy, Inc 
